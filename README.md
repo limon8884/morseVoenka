@@ -19,5 +19,13 @@ The default idea was found here: https://github.com/AlexGyver/GyverCheat/tree/50
 5. upload 'morseVoenka.ino' code one your arduino device
 
 # How to use
-1.  
+1. 2 seconds hold the button - turn on/off the device
+2. Then input the encoded question (up to 5 letters). Is success - they will be returned before firstly and then the answer. If failed - long signal
 
+# Restrictions and details
+* The input file is separated by questions firstly (every folder in 'readyFiles' is an encoded question)
+* Every question then is divede on .txt files of length 60 characters at most
+* Every .txt file runs for abound 2.5 minutes. So, the overall speed is 15 seconds for a word
+* Don't use more than 10 files for a quastion
+* Does not support of "Э" letter
+* Supports only Russian language, but English is much easier
