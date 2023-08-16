@@ -1,0 +1,13 @@
+Если файлов больше 10 (текст на 600+ символов), порядок вывода файлов сбивается
+Не выговаривает Э (забил)
+очень долго (подкрути скорость)
+
+
+Эмпирический вывод: ограничение 336 точек. буква весит i+1 точку (е-2, и-3, о-4, х-5). пробел - 1точку.
+Замечание: 336 точек это 25 на код, остается 310. из них (оценка сверху) по 5 точек на букву(1+4). 60 символов, 10 пробелов. 
+Поэтому было решено разбивать один файл на несколько по 60 символов.
+
+Проблемы выявленные по ходу написания.
+MEM: russian letters are coded as 2 symbols in String. Bad coded in char. watch the 130 string of this code.
+MEM2: the function pow() in GOVNO! (int)pow(3, i) works uncorrect in "for" for example
+MEM3: filename's length is restricted by 12 symbols including ".txt".It won't see file "12345678.txt"
