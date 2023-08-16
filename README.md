@@ -12,12 +12,12 @@ Morse code is quite inefficient protocol, however it is very simple and there ar
 The default idea was found here: https://github.com/AlexGyver/GyverCheat/tree/503511fde1de7588373d659735a34bf7a38df7cb
 
 # How to prepare divice
-0. Prepare your .txt file with your exam quastions and answers. Every question-answer pair should be separated by "%". The quastion should be compressed to a 5-letter string, consisting of the first letters of first 5 words in a quastion sentence. After this copy the whole text of answer. The example is provided in "f.txt" (encoding windows-1251)
-1. Save the file as "f.txt" near B6.py script
-2. Run the script. It will create a folder 'readyFiles' inside sdFile folder. It is your encoded data
-3. Put 'readyFiles' folder on SD-card and insert it into SD-holder connected to arduino
-4. upload 'morseVoenka.ino' code one your arduino device
+1. Prepare your .txt file with your exam quastions and answers. Every question-answer pair should be separated by "%". The quastion should be compressed to a 5-letter string, consisting of the first letters of first 5 words in a quastion sentence. After this copy the whole text of answer. The example is provided in "f.txt" (encoding windows-1251)
+2. Save the file as "f.txt" near B6.py script
+3. Run the script. It will create a folder 'readyFiles' inside sdFile folder. It is your encoded data
+4. Put 'readyFiles' folder on SD-card and insert it into SD-holder connected to arduino
+5. upload 'morseVoenka.ino' code one your arduino device
 
 # How to use
-
+1.  
 
