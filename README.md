@@ -1,3 +1,5 @@
+**Electronic cheet-sheet with tactile communication**
+
 # Idea 
 Suppose that you have 100 questions with a long answer to prepare for your exam. Some of these quastions will be asked and will have enough time to prepare the answer. Cheating is very hard because proctors always watch on you. 
 That was my case and i decided to hack the system and make an electronic cheatsheet!
